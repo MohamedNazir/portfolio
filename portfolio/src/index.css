@@ -1,0 +1,40 @@
+.div-bgimg {
+    height: 75ex;
+    background-image: url('website.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footer {
+    background: #061D25;
+    padding: 10px 0;
+  }
+  .footer a {
+    margin-bottom: 50px;
+    color: #70726F;
+    font-size: 20px;
+    padding: 3px 10px 10px 10px;
+    margin-bottom: 200px;
+   
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 0px solid #70726F;
+  }
+  .footer a:hover {
+    color: aqua;
+  }
+  .footer-copywrite {
+    background:  #262524;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    
+  }
+  .footer-copywrite a{
+    background:  #262524;
+    text-align: center;
+    color: white;
+    text-anchor: unset;
+  }
